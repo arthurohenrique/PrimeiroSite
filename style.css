@@ -64,6 +64,12 @@
             color: white;
         }
         
+        .link-git {
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+        }
+        
         .whats {
             position: fixed;
             width: 50px;
