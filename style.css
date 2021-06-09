@@ -1,0 +1,542 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* design da página */
+        
+        .container {
+            text-align: center;
+            background-color: #000070;
+            color: white;
+        }
+        
+        .container h1 {
+            font-size: 6em;
+            color: white;
+            display: inline;
+        }
+        
+        .titulo {
+            list-style: inside;
+            list-style-image: url(https://img.icons8.com/cotton/64/000000/tooth.png);
+        }
+        
+        .container h2 {
+            font-size: 4em;
+        }
+        
+        .container a {
+            text-decoration: none;
+        }
+        
+        .p1 {
+            font-size: 20px;
+            color: white;
+        }
+        
+        .cnpj,
+        .by {
+            font-size: 15px;
+        }
+        
+        .curve svg {
+            background-color: #000070;
+            display: block;
+        }
+        
+        .localiza {
+            text-align: center;
+        }
+        
+        .localiza h2 {
+            font-size: 4em;
+        }
+        
+        .localiza iframe {
+            box-shadow: 1px 1px 5px;
+        }
+        /* icones instagram e facebook */
+        
+        .icon a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .whats {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            bottom: 40px;
+            right: 10px;
+            background-color: #25d366;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 1px 1px 2px black;
+            z-index: 1000;
+        }
+        
+        .fa-whatsapp {
+            margin-top: 10px;
+        }
+        
+        .facebook {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            bottom: 120px;
+            right: 10px;
+            background-color: #005099;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 1px 1px 2px black;
+            z-index: 1000;
+        }
+        
+        .fa-facebook {
+            margin-top: 10px;
+        }
+        
+        .instagram {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            bottom: 200px;
+            right: 10px;
+            background-color: black;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 1px 1px 2px black;
+            z-index: 1000;
+        }
+        
+        .fa-instagram {
+            margin-top: 10px;
+        }
+        /* menu de navegação */
+        
+        #menu {
+            list-style: none;
+            height: 100%;
+            min-height: 100%;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: 15px;
+            transition: transform 5s ease;
+        }
+        
+        #menu a {
+            text-decoration: none;
+            color: #000070;
+            padding: 10px;
+        }
+        
+        #menu li {
+            font-size: 1.5rem;
+            margin: 10px;
+            padding: 5px;
+            background-color: white;
+            color: #000070;
+            border-radius: 20px;
+        }
+        
+        #menu li:hover {
+            transform: scale(1.05);
+            transition: transform 1s ease;
+        }
+        /* cards */
+        
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            width: 0px;
+            height: 100vh;
+            position: absolute;
+            top: 100px;
+            left: 50%;
+        }
+        
+        .card {
+            background: #E9EEFF;
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px;
+            width: 400px;
+            margin: 30px;
+            color: #000030;
+            transition: transform 2s ease;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 1s ease;
+        }
+        
+        .mediaCard1 {
+            background: url(./imagens/sorriso1.jpg) center/cover;
+            height: 400px;
+            width: 100%;
+            padding: 180px;
+        }
+        
+        .mediaCard2 {
+            background: url(./imagens/sorriso2.jpg) center/cover;
+            height: 400px;
+            width: 100%;
+            padding: 180px;
+        }
+        
+        .mediaCard3 {
+            background: url(./imagens/tecnologia.jpg) center/cover;
+            height: 400px;
+            width: 100%;
+            padding: 180px;
+        }
+        
+        .mediaCard4 {
+            background: url(./imagens/sorriso3.jpg) center/cover;
+            height: 400px;
+            width: 100%;
+            padding: 180px;
+        }
+        
+        .topCard {
+            padding: 20px;
+            padding-top: 5px;
+        }
+        
+        .bottomCard {
+            padding: 20px;
+            font-size: 1.2rem;
+        }
+        /* sobre.html */
+        
+        .text-sobre1 {
+            display: inline-block;
+            margin-right: 20%;
+            margin-left: 20%;
+            max-width: 20%;
+        }
+        
+        .text-sobre2 {
+            display: inline-block;
+            max-width: 20%;
+        }
+        
+        .text-sobre1 svg {
+            position: absolute;
+            width: 5%;
+            left: 15%;
+        }
+        
+        .text-sobre2 svg {
+            position: absolute;
+            width: 5%;
+            left: 55%;
+        }
+        /* clinicas.html */
+        
+        .clinicapadre {
+            display: inline;
+        }
+        
+        .clinicapadre h2 {
+            font-size: 3em;
+        }
+        
+        .clinicapadre p {
+            font-size: 1.2em;
+        }
+        
+        .clinicas {
+            position: relative;
+        }
+        
+        .clinicas img {
+            border-radius: 30px;
+            position: absolute;
+            width: 25%;
+            margin: 1%;
+            transition: transform 2s ease;
+        }
+        
+        .clinicas img:hover {
+            transform: scale(1.1);
+            transition: transform 1s ease;
+        }
+        
+        .clinica1 img {
+            bottom: 50%;
+            left: 35%;
+        }
+        
+        .clinica2 img {
+            left: 35%;
+        }
+        
+        .clinica3 img {
+            bottom: 50%;
+            left: 65%;
+        }
+        
+        .clinica4 img {
+            left: 65%;
+        }
+        /* contato.html */
+        
+        .contato {
+            text-align: center;
+        }
+        
+        .contato h2 {
+            font-size: 2.5em;
+        }
+        
+        .contato a,
+        span {
+            color: #000099;
+            text-decoration: none;
+        }
+        /* mobile */
+        
+        @media only screen and (max-width: 1600px) {
+            /* cards */
+            .content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 10px;
+                height: 100vh;
+                position: absolute;
+                left: 50%;
+            }
+            .card {
+                width: 500px;
+            }
+            .mediaCard1 {
+                background: url(./imagens/sorriso1.jpg) center/cover;
+                height: 200px;
+                width: 100%;
+                padding: 120px;
+            }
+            .mediaCard2 {
+                background: url(./imagens/sorriso2.jpg) center/cover;
+                height: 200px;
+                width: 100%;
+                padding: 120px;
+            }
+            .mediaCard3 {
+                background: url(./imagens/tecnologia.jpg) center/cover;
+                height: 200px;
+                width: 100%;
+                padding: 120px;
+            }
+            .mediaCard4 {
+                background: url(./imagens/sorriso3.jpg) center/cover;
+                height: 200px;
+                width: 100%;
+                padding: 120px;
+            }
+            .topCard {
+                padding: 10px;
+                margin-bottom: 50px;
+                max-height: 10px;
+            }
+            .bottomCard {
+                padding: 5px;
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+            /* google maps */
+            .localiza iframe {
+                width: 900px;
+            }
+            /* clinicas.html */
+            .clinicapadre h2 {
+                font-size: 1.5em;
+            }
+            .clinicapadre p {
+                font-size: 1em;
+            }
+            .clinicas {
+                margin-bottom: 100px;
+            }
+        }
+        
+        @media only screen and (max-width: 1100px) {
+            /* menu */
+            #menu {
+                display: block;
+            }
+            #menu a {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            /* cards */
+            .content {
+                display: block;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 100px;
+                height: 100vh;
+                position: static;
+                top: 0px;
+                left: 50%;
+                margin-bottom: 500px;
+                margin-left: 100px;
+            }
+            .card {
+                width: 500px;
+            }
+            .mediaCard1 {
+                background: url(./imagens/sorriso1.jpg) center/cover;
+                height: 100px;
+                width: 100%;
+                padding: 100px;
+            }
+            .mediaCard2 {
+                background: url(./imagens/sorriso2.jpg) center/cover;
+                height: 100px;
+                width: 100%;
+                padding: 100px;
+            }
+            .mediaCard3 {
+                background: url(./imagens/tecnologia.jpg) center/cover;
+                height: 100px;
+                width: 100%;
+                padding: 100px;
+            }
+            .mediaCard4 {
+                background: url(./imagens/sorriso3.jpg) center/cover;
+                height: 100px;
+                width: 100%;
+                padding: 100px;
+            }
+            /* google maps */
+            .localiza iframe {
+                width: 300px;
+            }
+            /* clinicas.html */
+            .clinicapadre h2 {
+                font-size: 1.2em;
+            }
+            .clinicapadre p {
+                font-size: 0.8em;
+            }
+            /* contato.html */
+            .contato h2 {
+                font-size: 2em;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            /* design da página */
+            .container h1 {
+                font-size: 5em;
+                color: white;
+                display: inline;
+            }
+            .container h2 {
+                font-size: 2em;
+            }
+            .cnpj,
+            .by {
+                font-size: 10px;
+            }
+            /* menu */
+            #menu {
+                display: block;
+            }
+            #menu a {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            /* cards */
+            .content {
+                display: block;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                width: 100px;
+                height: 100vh;
+                position: static;
+                top: 0px;
+                left: 50%;
+                margin-bottom: 300px;
+                margin-left: 0px;
+            }
+            .card {
+                width: 300px;
+            }
+            .mediaCard1 {
+                background: url(./imagens/sorriso1.jpg) center/cover;
+                height: 100px;
+                width: 100%;
+                padding: 0px;
+            }
+            .mediaCard2 {
+                background: url(./imagens/sorriso2.jpg) center/cover;
+                height: 100px;
+                width: 100%;
+                padding: 0px;
+            }
+            .mediaCard3 {
+                background: url(./imagens/tecnologia.jpg) center/cover;
+                height: 100px;
+                width: 100%;
+                padding: 0px;
+            }
+            .mediaCard4 {
+                background: url(./imagens/sorriso3.jpg) center/cover;
+                height: 100px;
+                width: 100%;
+                padding: 0px;
+            }
+            /* google maps */
+            .localiza iframe {
+                width: 300px;
+            }
+            /* clinicas.html */
+            .clinicas img {
+                border-radius: 30px;
+                position: absolute;
+                width: 35%;
+                margin: 1%;
+                transition: transform 2s ease;
+            }
+            .clinicas img:hover {
+                transform: scale(1.1);
+                transition: transform 1s ease;
+            }
+            .clinica1 img {
+                top: 10px;
+                left: 150px;
+            }
+            .clinica2 img {
+                top: 100px;
+                left: 150px;
+            }
+            .clinica3 img {
+                top: 10px;
+                left: 10px;
+            }
+            .clinica4 img {
+                top: 100px;
+                left: 10px;
+            }
+            /* contato.html */
+            .contato h2 {
+                font-size: 1em;
+            }
+        }
